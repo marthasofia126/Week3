@@ -18,8 +18,8 @@ public class RuleChecks {
         System.out.println("Menu choice is not 3: " + other);
 
         String response = " yes ";
-        String cleanedResponse = response.trim();
-        boolean isYes = cleanedResponse.equals("yes");
-        System.out.println("Response is yes: " + isYes);
+        String cleanedyes = response.trim();
+        boolean yes = cleanedyes.equals("yes");
+        System.out.println("Response is yes: " + yes);
     }
 }

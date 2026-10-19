@@ -108,3 +108,41 @@ Process finished with exit code 0
 Explain why calling raw.trim(); alone would not update raw.
 Because strings are immutable in java. The trim() method returns a new String without changing the original variable. 
 To save the cleaned text, you need to assign the result to a variable.
+
+Exercise 8:
+Output: 
+First: 4
+Second: 32
+
+Process finished with exit code 0
+
+Exercise 9: 
+Output:
+Battery below 20: true
+At most 4 members: true
+Weight at least 2.5: true
+Menu choice is not 3: true
+Response is yes: true
+
+Process finished with exit code 0
+
+Exercise 10:
+Enter your budget: 100
+Enter item cost: 50
+Purchase is possible
+Remaining amount: 50.0
+
+Process finished with exit code 0
+
+Exercise 11: 
+Output:
+Enter battery percentage: 90
+High
+
+Process finished with exit code 0
+
+Exercise 12: 
+Output:
+Access allowed
+
+Process finished with exit code 0
