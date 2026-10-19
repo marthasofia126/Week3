@@ -73,3 +73,24 @@ Decimal Division Average: 8.33
 
 Explain why merely declaring the result as double is not enough?
 Because Java performs integer division first when both numbers are integers, and removes the decimal portion before storing the result as a double.
+
+Exercise 6:
+Output: 
+Enter your destination:
+Granada
+What is the distance in km?:
+150
+What is the speed in km per hour?:
+60
+Destination: Granada
+Estimated travel time in hours: 2.5
+Estimated travel time in minutes: 150.0
+
+Process finished with exit code 0
+
+Explain why speed must not be zero:
+Because the program calculates time by dividing distance by speed. 
+Dividing by zero would be invalid.
+
+Exercise 7: 
+
