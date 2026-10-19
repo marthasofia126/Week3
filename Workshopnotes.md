@@ -56,3 +56,20 @@ Remaining minutes: 15
 Process finished with exit code 0
 
 Exercise 5: 
+
+Output:
+
+Score 1: 8
+Score 2: 7
+Score 3: 9
+Average: 8
+Decimal Division Average: 8.00
+
+Score 1: 8
+Score 2: 7
+Score 3: 10
+Average: 8
+Decimal Division Average: 8.33
+
+Explain why merely declaring the result as double is not enough?
+Because Java performs integer division first when both numbers are integers, and removes the decimal portion before storing the result as a double.
