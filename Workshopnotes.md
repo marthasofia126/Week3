@@ -93,4 +93,18 @@ Because the program calculates time by dividing distance by speed.
 Dividing by zero would be invalid.
 
 Exercise 7: 
+Output:
+Enter your full name:
+Ana Lee
+Enter your course:
+cop1800c
+Cleaned name: Ana Lee
+Name length: 7
+Cleaned course name: COP1800C
+Course code matches: true
 
+Process finished with exit code 0
+
+Explain why calling raw.trim(); alone would not update raw.
+Because strings are immutable in java. The trim() method returns a new String without changing the original variable. 
+To save the cleaned text, you need to assign the result to a variable.
